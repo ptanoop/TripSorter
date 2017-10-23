@@ -1,0 +1,31 @@
+{
+  "name": "tripsorter",
+  "version": "1.0.0",
+  "description": "A small trip advisor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "Trips"
+  ],
+  "author": "Anoop Yaseen P T",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-toggle-display": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.2.0",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
+  }
+}
